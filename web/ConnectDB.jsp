@@ -1,6 +1,5 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.logging.*"%>
-
 <%!
     public static class ConnectDB {
 

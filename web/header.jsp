@@ -21,7 +21,7 @@
         </a>
 
         <div class="" id="loginform" >
-               
+
 
 
             <form id="loginformid">
@@ -36,10 +36,10 @@
                 </fieldset>
             </form>
             <script type="text/javascript">
-                        document.onload=showForm(1);
+                        document.onload = showForm(1);
             </script>
             <button  id="showFormButton" onclick="showForm(2)">I want to login</button>
-           
+
         </div>
         <a href="register.jsp">Register</a><br>
 
