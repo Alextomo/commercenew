@@ -16,6 +16,8 @@
     int countSearchResult = 0;
 
     String myQuery = "SELECT * FROM abjad WHERE a REGEXP '" + userQueryInput + "'";
+    
+    
     Class.forName(driver);
     Connection con = DriverManager.getConnection(url, user, password);
     Statement statement = con.createStatement();
